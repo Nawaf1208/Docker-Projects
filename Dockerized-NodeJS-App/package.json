@@ -1,0 +1,12 @@
+{
+  "name": "dockerized-nodejs-app",
+  "version": "1.0.0",
+  "description": "A simple Dockerized Node.js application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [ "docker", "nodejs", "devops"],
+  "author": "Nawaf Musthafa",
+  "license": "ISC"
+}

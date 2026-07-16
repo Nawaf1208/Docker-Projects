@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# Docker
+*.tar
+
+# OS Files
+.DS_Store
+Thumbs.db

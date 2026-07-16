@@ -1,0 +1,9 @@
+.git
+
+node_modules/
+
+*.log
+
+README.md 
+
+Project-6.png
