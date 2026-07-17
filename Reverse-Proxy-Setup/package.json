@@ -1,0 +1,24 @@
+{
+  "name": "reverse-proxy-setup",
+  "version": "1.0.0",
+  "description": "A simple Reverse Proxy setup using Nginx and Node.js with Docker Compose.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "nginx",
+    "reverse-proxy",
+    "nodejs",
+    "express",
+    "devops"
+  ],
+  "author": "Nawaf Mohammed Musthafa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
