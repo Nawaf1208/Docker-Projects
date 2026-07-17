@@ -1,0 +1,22 @@
+{
+  "name": "multi-container-blog",
+  "version": "1.0.0",
+  "description": "A multi-container blog application using Node.js and MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "node.js",
+    "mysql",
+    "multi-container"
+  ],
+  "author": "Nawaf Mohammed Musthafa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.23.0"
+  }
+}
