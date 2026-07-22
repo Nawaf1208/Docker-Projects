@@ -1,0 +1,29 @@
+services:
+  app:
+    build: ./app
+    depends_on:
+      - mysql
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=myuser 
+      - MYSQL_PASSWORD=mypassword  
+      - MYSQL_DATABASE=mydatabase  
+    
+  mysql:
+    image: mysql:8.4
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=myrootpassword 
+      - MYSQL_DATABASE=mydatabase 
+      - MYSQL_USER=myuser 
+      - MYSQL_PASSWORD=mypassword 
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - app

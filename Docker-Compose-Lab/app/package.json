@@ -1,0 +1,24 @@
+{
+  "name": "docker-compose-lab",
+  "version": "1.0.0",
+  "description": "Multi-container application using Docker Compose",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "nginx",
+    "nodejs",
+    "mysql",
+    "devops"
+  ],
+  "author": "Nawaf Mohammed Musthafa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.23.0"
+  }
+}
